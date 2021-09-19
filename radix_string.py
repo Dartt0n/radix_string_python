@@ -22,7 +22,7 @@ def radix_string(number:int, radix:int) -> str:
    if radix < 2:
       raise ValueError("radix must be more than 2")
 
-   basic_alphabet = string.digits + string.ascii_letters
+   basic_alphabet = string.digits + string.ascii_lowercase
 
    result = ''
 
