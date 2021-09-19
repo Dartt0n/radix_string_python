@@ -15,5 +15,5 @@ assert radix_string(10, 2) == bin(10)[2:]
 x = 100500
 base = 15
 
-print(f"Integer {x}(10) in {base} base is {radix_string(x, base)}({base})")
+print(f"Integer {x}(10) in base {base} is {radix_string(x, base)}({base})")
 ```
