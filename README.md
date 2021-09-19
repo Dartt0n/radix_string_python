@@ -4,7 +4,7 @@ Function for python to convert integer to any base
 
 ## Installation
 ```bash
-pip install 
+pip install git+https://github.com/Dartt0n/radix_string_python.git
 ```
 
 ## Usage
