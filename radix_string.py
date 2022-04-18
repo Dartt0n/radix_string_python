@@ -33,11 +33,10 @@ def radix_string(number: int, radix: int) -> str:
     else:
         sign = ""
 
-    while True:
+    while number:
         number, rdigit = divmod(number, radix)
         letter = (
             f"[{rdigit}]" if rdigit >= len(basic_alphabet) else basic_alphabet[rdigit]
         )
         result = letter + result
-        if number == 0:
-            return sign + result
+    return sign + result
