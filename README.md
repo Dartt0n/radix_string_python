@@ -17,3 +17,8 @@ base = 15
 
 print(f"Integer {x}(10) in base {base} is {radix_string(x, base)}({base})")
 ```
+
+## Tests
+```bash
+pytest tests/tests.py
+```
